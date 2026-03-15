@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Crypto Dashboard</h1>
+    </header>
+
+    <div class="container">
+        <section class="search">
+            <input type="text" id="searchInput" placeholder="Search coins...">
+        </section>
+
+        <div class="top-stats-container">
+            <div class="stats-card gainer-card">
+                <h3>Top Gainers (24h)</h3>
+                <div id="gainersList">
+                    <p class="loading-text">Loading...</p>
+                </div>
+            </div>
+
+            <div class="stats-card loser-card">
+                <h3>Top Losers (24h)</h3>
+                <div id="losersList">
+                    <p class="loading-text">Loading...</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="table-section">
+            <table id="cryptoTable">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Coin</th>
+                        <th>Price</th>
+                        <th>24h Change</th>
+                        <th>Market Cap</th>
+                        <th>Volume (24h)</th>
+                        <th>7d Sparkline</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <div id="coinModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div id="modalChart">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

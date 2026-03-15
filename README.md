@@ -5,16 +5,16 @@ Fully API-ready for real-time cryptocurrency data (CoinGecko).
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshot
 
 ### Desktop View
-![Desktop Screenshot](screenshots/desktop.jpg)
+![Desktop Screenshot](screenshot/desktop.jpg)
 
 ### Mobile View
-![Mobile Screenshot](screenshots/mobile.jpg)
+![Mobile Screenshot](screenshot/mobile.jpg)
 
 ### Chart Modal
-![Modal Screenshot](screenshots/modal.jpg)
+![Modal Screenshot](screenshot/modal.jpg)
 
 ---
 
